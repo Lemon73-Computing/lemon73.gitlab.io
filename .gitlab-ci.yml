@@ -1,11 +1,3 @@
-image: alpine:latest
-
-pages:
-  stage: deploy
+build:
   script:
-  - echo 'Nothing to do...'
-  artifacts:
-    paths:
-    - public
-  only:
-  - master
+    - echo hello
