@@ -6,8 +6,9 @@
 
 - [English](README.md)
 - 日本語(ここ)
+- [Deutsch](README_de.md)
 
-## Getting started
+## はじめに
 
 To make it easy for you to get started with GitLab, here's a list of recommended next steps.
 
@@ -57,21 +58,22 @@ When you're ready to make this README your own, just edit this file and use the 
 Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
 
 ## 名称
-LEC-MainSite
+LECメインサイト
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+## 概要
+こちらは、GitHubで開発が始まったLECメインサイトを新しくGitLabに移行したものです。<br />
+現時点では開発中の不安定版ですが、旧サイトを超すことを目標に開発を続けています。
 
-## Badges
+## バッジ
 On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
 
-## Visuals
+## 案内
 Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
 
-## Installation
+## インストール
 Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
 
-## Usage
+## 使用方法
 Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
 
 ## サポート
@@ -88,8 +90,9 @@ LECのメインサイトの開発は、私(Lemon73)の単独で行われてい�
 
 ただし、国際化(翻訳)に関しては別で、それらに関してはマージリクエストまたは翻訳データの受領を行います。
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+## 著者と謝辞
+著者:Lemon73<br />
+謝辞:開発中のために不安定で申し訳ございません。また、翻訳もほとんど進んでいないため、ご協力お願いします。
 
 ## ライセンス
 こちらのプロジェクトでは、
