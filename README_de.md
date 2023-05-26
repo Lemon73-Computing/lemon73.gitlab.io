@@ -4,9 +4,9 @@
 
 ## i18n
 
-- English(here)
+- [English](README.md)
 - [日本語](README_ja.md)
-- [Deutsch](README_de.md)
+- Deutsch(ここ)
 
 ## Getting started
 
@@ -57,7 +57,7 @@ When you're ready to make this README your own, just edit this file and use the 
 ## Suggestions for a good README
 Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
 
-## Name
+## 名称
 LEC-MainSite
 
 ## Description
@@ -75,25 +75,27 @@ Within a particular ecosystem, there may be a common way of installing things, s
 ## Usage
 Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
 
-## Support
-RealTime Information(Japanese):[Discord RealTime](https://discord.com/channels/972718425937952798/1080900222152097913 "Official LEC-MainSite support")
+## Unterstützung
+リアルタイムの運営状況報告:旧サイト世代の[Discord連絡板](https://discord.com/channels/972718425937952798/1080900222152097913 "LEC公式サイトサポート")
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+## Straßenkarte
+未定です。
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+## Beitrag
+LECのメインサイトの開発は、私(Lemon73)の単独で行われています。
+また、現時点では他の方からのマージリクエストは受けない予定です。
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+ドキュメントなどに関しても特に提供は受けない予定となっています。
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+ただし、国際化(翻訳)に関しては別で、それらに関してはマージリクエストまたは翻訳データの受領を行います。
 
 ## Authors and acknowledgment
 Show your appreciation to those who have contributed to the project.
 
-## License
-- Programs License:[GNU Public License v3.0(GPL v3)](LICENSE "GPL v3")
-- Text License:[Creative Commons BY-SA 4.0(CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed "CC BY-SA 4.0")
+## Lizenz
+- Programme:[GNU Public License v3.0(GPL v3)](LICENSE "GPL v3")
+- Text:[Creative Commons BY-SA 4.0(CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.de "CC BY-SA 4.0")
 
-## Project status
-Now, This project is moving.
+## プロジェクトの状況
+こちらは、リアルタイムで**開発中**のプロジェクトとなっています。
+現在主に行っている作業は、[旧サイト](https://github.com/Lemon73-Computing/LEC-MainSite "LEC-MainSite")から引継ぎ作業です。
