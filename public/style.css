@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-body{margin: 0;}
 html
 {
     color: #281414;
@@ -9,6 +8,8 @@ html
 
     width: 100%;
 }
+body{margin: 0;}
+
 header a b p
 {
     color: #4e403e;
@@ -19,6 +20,7 @@ header a b p
     margin-bottom: 1.6em;
     padding: 0.4em;
 }
+
 main
 {
     background-color: #f4f4f4;
@@ -26,6 +28,9 @@ main
     padding: 0.2em;
     margin-bottom: 1.4em;
 }
+
+/*Text*/
+/*文字系*/
 ::selection
 {
     color: rgba(255, 255, 255, .45);
