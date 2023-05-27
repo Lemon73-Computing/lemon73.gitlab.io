@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{margin: 0;}
+html
+{
+    color: #281414;
+    background-color: #ebebeb;
+    font-family: "游明朝", "ヒラギノ明朝 ProN", "Meiryo", sans-serif;
+
+    width: 100%;
+}
+header a b p
+{
+    color: #4e403e;
+    background-color: #f4f4f4;
+
+    font-size: 1.6em;
+    margin: 0;
+    margin-bottom: 1.6em;
+    padding: 0.4em;
+}
+main
+{
+    background-color: #f4f4f4;
+    width: 90%;
+    padding: 0.2em;
+    margin-bottom: 1.4em;
+}
+::selection
+{
+    color: rgba(255, 255, 255, .45);
+    background: rgba(24, 12, 12, .60);
+}
+a
+{
+    /*Without Underber*/
+    /*下線無効化*/
+    text-decoration: none;
+}
+p a{color: #281414;}
