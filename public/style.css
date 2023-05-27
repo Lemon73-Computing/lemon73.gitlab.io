@@ -37,4 +37,4 @@ a
     /*下線無効化*/
     text-decoration: none;
 }
-p a{color: #281414;}
+p a, a p{color: #281414;}
