@@ -4,7 +4,7 @@ html
 {
     color: #281414;
     background-color: #ebebeb;
-    font-family: "游明朝", "ヒラギノ明朝 ProN", "Meiryo", sans-serif;
+    font-family: "游明朝", "ヒラギノ明朝 ProN", "Meiryo", serif, sans-serif;
 
     width: 100%;
 }
@@ -43,3 +43,8 @@ a
     text-decoration: none;
 }
 p a, a p{color: #281414;}
+
+a:focus, a:hover
+{
+    opacity: 0.7;
+}
