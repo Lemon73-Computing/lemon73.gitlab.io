@@ -1,20 +1,80 @@
 @charset "UTF-8";
 
+/* Light Mode */
+/* ライトモード */
+@media (prefers-color-scheme: light)
+{
+    html
+    {
+        color: #281414;
+        background-color: #ebebeb;
+    }
+    header b p
+    {
+        background-color: #f4f4f4;
+    }
+    header b p a
+    {
+        color: #4e403e;
+    }
+    main
+    {
+        background-color: #f4f4f4;
+    }
+
+    /*Text*/
+    /*文字系*/
+    a{color: #c50052;}
+    /*p a, a p{color: #281414;}*/
+    ::selection
+    {
+        color: rgba(255, 255, 255, .45);
+        background: rgba(24, 12, 12, .60);
+    }
+}
+/* Dark Mode */
+/* ダークモード */
+@media (prefers-color-scheme: dark)
+{
+    html
+    {
+        color: #e8e8e8;
+        background-color: #2f2f2f;
+    }
+    header b p
+    {
+        background-color: #453b3b;
+    }
+    header b p a
+    {
+        color: #e8e8e8;
+    }
+    main
+    {
+        background-color: #453b3b;
+    }
+
+    /*Text*/
+    /*文字系*/
+    a{color: #edd5dd;}
+    /*p a, a p{color: #e8e8e8;}*/
+    ::selection
+    {
+        color: rgba(24, 12, 12, .45);
+        background: rgba(255, 255, 255, .60);
+    }
+}
+
 html
 {
-    color: #281414;
-    background-color: #ebebeb;
     font-family: "游明朝", "ヒラギノ明朝 ProN", "Meiryo", serif, sans-serif;
-
     width: 100%;
 }
+
 body{margin: 0;}
 
 header b p
 {
-    color: #4e403e;
-    background-color: #f4f4f4;
-
     font-size: 1.6em;
     margin: 0;
     margin-bottom: 1.6em;
@@ -23,7 +83,6 @@ header b p
 
 main
 {
-    background-color: #f4f4f4;
     width: 90%;
     padding: 0.2em;
     margin-bottom: 1.4em;
@@ -31,20 +90,13 @@ main
 
 /*Text*/
 /*文字系*/
-::selection
-{
-    color: rgba(255, 255, 255, .45);
-    background: rgba(24, 12, 12, .60);
-}
 a
 {
     /*Without Underber*/
     /*下線無効化*/
     text-decoration: none;
 }
-p a, a p{color: #281414;}
-
 a:focus, a:hover
 {
-    opacity: 0.7;
+    opacity: 0.8;
 }
