@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<!--
+                _____    |
+                \___ \   |
+            _____   \ \  |
+           / _  /    \_\ |
+          / /_\/         |NEO
+         |___  /         |Sky
+ __      /\_/ /          |Colors
+ \ \    /____/           |
+  \ \___                 |
+   \____\                |
+  ----------------------
+     |NEO Sky Colors|
+  ----------------------
+-->
+
+<html lang="ja">
+    <!-- # # Information # # -->
+    <!-- # # 情報 # # -->
+    <head>
+        <!-- # Title # -->
+        <!-- # タイトル # -->
+        <title>Sky Colors | LEC-NEO</title>
+
+        <!-- # Icon Setting # -->
+        <!-- # アイコンの設定 # -->
+        <!-- Main Icon -->
+        <!-- メインアイコン。SVGにすることでダークモードができるっぽい? -->
+		<link rel="icon" href="/favicon.png">
+        <!-- iOS Home Icon / Safari favorite Icon -->
+        <!-- iOSホーム画面 / Safariお気に入り画面 用アイコン -->
+		<link rel="apple-touch-icon" type="image/png" href="/apple_touch_icon.png">
+        <!-- I don't pripare manifest.json. -->
+        <!-- manifest.json用のアイコンは現時点では設定しない。 -->
+        
+        <!-- # Meta Data # -->
+        <!-- # SEO対策用のMetaデータ # -->
+        <meta charset="utf-8">
+        <meta property="og:description" content="LEC公式サイト">
+        <meta name="keywords" content="LEC, Lemon Electric Computer, Lemon73, Develop">
+        <meta name="author" content="copy;LEC/Lemon73">
+        <meta name="viewport" content="width=1080">
+        <meta name="description" content="NEO-Techで開発しているSky Colorsの公式紹介ページです。2022年から開発が続いているこのソフトウェアはLECを代表するソフトウェアです。"/>
+        <meta property="og:url" content="http://lemon73.gitlab.io">
+        <meta property="og:site_name" content="LECメインサイト">
+        <meta property="og:locale" content="ja">
+        <!-- # Destoribute # -->
+        <!-- # 公開 # -->
+        <meta name="google-site-verification" content="zVroho61AKvXHVrYCb_4TU7LJBc8Awt-WtY_Q9g_aBs" />
+
+        <!-- # # StyleSheet # # -->
+        <!-- # # CSSの連携 # # -->
+		<link rel="stylesheet" href="/style.css">
+    </head>
+
+    <!-- # # Main # # -->
+    <!-- # # メイン部分 # # -->
+    <body>
+        <!-- ## Header ## -->
+        <header>
+            <b><p style="padding-left: 3em;"><a href="/">Lemon Electric Computer</a></p></b>
+        </header>
+        <!-- ## Main Conpornent ## -->
+        <center>
+        <main>
+            <h1>Sky Colors系列</h1>
+            <p>Sky Colorsはランダムな色を表示し、イラストを描画するときやサイトのデザインをする際に利用するために作られました。</p>
+        </main>
+        <main>
+            <h2>歴史</h2>
+            <p>Sky Colors(旧:Sorairo Colors)はLECの中でも歴史が長いソフトウェアで、様々な方法で開発が続けられてきました。</p>
+
+            <!-- 携帯版UI非対応(携帯版だとかなり見ずらい) -->
+            <table border="1" cellspacing="0" width="80%">
+                <caption>主要な更新</caption>
+                <thead style="background-color: #333; color: #fff;">
+                    <tr>
+                        <th width="30%">年代</th>
+                        <th width="70%">概要</th>
+                    </tr>
+                    <tr><th width="100%" colspan="2">ベースシステム / 最終バージョン</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td width="30%" style="background-color: #dedede;">2022年/3月</td><!-- LEC設立以前。旧体制時代 -->
+                        <td width="70%">電卓ソフトウェアとしてFlomiaを開発。</td>
+                    </tr>
+                    <tr><td width="100%" colspan="2">.NET6.0(C#)/Windows Forms(v0.9.4)</td></tr>
+
+                    <tr>
+                        <td width="30%" style="background-color: #dedede;">2022年/11月</td>
+                        <td width="70%">ランダムカラーソフトウェアとしてCUI版Sorairo Colorsの開発を開始。</td>
+                    </tr>
+                    <tr><td width="100%" colspan="2">(n-cs版):.NET6.0(C#)/Console(n-cs4)</td></tr>
+                    <tr><td width="100%" colspan="2">(n-vb版):.NET6.0(VB.NET)/Console(n-vb2)</td></tr>
+
+                    <tr>
+                        <td width="30%" style="background-color: #dedede;">2022年/11月</td>
+                        <td width="70%">ランダムカラーソフトウェアとしてGUI版Sorairo Colorsの開発を開始。</td>
+                    </tr>
+                    <tr><td width="100%" colspan="2">(n-w-cs版):.NET6.0(C#)/Windows Forms(n-w-cs10)</td></tr>
+                    <tr><td width="100%" colspan="2">n-w-cs6にFlomiaを統合したn-w-cs7を開発。</td></tr>
+                    <tr><td width="100%" colspan="2">名前をN-SCF(NEO-Sorairo Colors + Flomia)とする。</td></tr>
+
+                    <tr>
+                        <td width="30%" style="background-color: #dedede;">2023年/2月</td>
+                        <td width="70%">Web版の開発を開始。</td>
+                    </tr>
+                    <tr><td width="100%" colspan="2">(n-b-cs版):.NET6.0(C#)/Blazor WebAssembly(n-b-cs2)</td></tr>
+                    <tr><td width="100%" colspan="2">(やる気がないため現在でもほとんど完成していない。)</td></tr>
+
+                    <tr>
+                        <td width="30%" style="background-color: #dedede;">2023年/3月</td>
+                        <td width="70%">Solaris向けに開発を開始。</td>
+                    </tr>
+                    <tr><td width="100%" colspan="2">(j版):JDK17?/Java Form?(j1)</td></tr>
+                    <tr><td width="100%" colspan="2">これ以前はSorairo Colorsと呼称していたが、この頃からSky Colorsと名前を変更する。</td></tr>
+                    <tr><td width="100%" colspan="2">(完成はしているが、実際に動くかはテストを行っていないので不明。)</td></tr>
+
+                    <tr>
+                        <td width="30%" style="background-color: #dedede;">2023年/3月</td>
+                        <td width="70%">モダンUIを実装したSky Colorsを開発開始。</td>
+                    </tr>
+                    <tr><td width="100%" colspan="2">(wpf-cs版):.NET Framework4.8?(C#)/WPF(wpf-cs1)</td></tr>
+                </tbody>
+            </table>
+            <p>ほとんど開発終了していますが、今後アップデートや別の方法で開発が進む可能性もあります。</p>
+        </main>
+        </center>
+    </body>
+</html>
