@@ -52,7 +52,26 @@
 
         <!-- # # StyleSheet # # -->
         <!-- # # CSSの連携 # # -->
-		<link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="/style.css">
+        <style>
+            @media (prefers-color-scheme: light)
+            {
+                .tableh
+                {
+                    background-color: #2f2f2f;
+                    color: white;
+                }
+                .year{background-color: #dedede;}
+            }
+            @media (prefers-color-scheme: dark)
+            {
+                .tableh
+                {
+                    background-color: #2c2727;
+                }
+                .year{background-color: #2f2f2f;}
+            }
+        </style>
     </head>
 
     <!-- # # Main # # -->
@@ -75,7 +94,7 @@
             <!-- 携帯版UI非対応(携帯版だとかなり見ずらい) -->
             <table border="1" cellspacing="0" width="80%">
                 <caption>主要な更新</caption>
-                <thead style="background-color: #333; color: #fff;">
+                <thead class="tableh">
                     <tr>
                         <th width="30%">年代</th>
                         <th width="70%">概要</th>
@@ -84,20 +103,20 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td width="30%" style="background-color: #dedede;">2022年/3月</td><!-- LEC設立以前。旧体制時代 -->
+                        <td width="30%" class="year">2022年/3月</td><!-- LEC設立以前。旧体制時代 -->
                         <td width="70%">電卓ソフトウェアとしてFlomiaを開発。</td>
                     </tr>
                     <tr><td width="100%" colspan="2">.NET6.0(C#)/Windows Forms(v0.9.4)</td></tr>
 
                     <tr>
-                        <td width="30%" style="background-color: #dedede;">2022年/11月</td>
+                        <td width="30%" class="year">2022年/11月</td>
                         <td width="70%">ランダムカラーソフトウェアとしてCUI版Sorairo Colorsの開発を開始。</td>
                     </tr>
                     <tr><td width="100%" colspan="2">(n-cs版):.NET6.0(C#)/Console(n-cs4)</td></tr>
                     <tr><td width="100%" colspan="2">(n-vb版):.NET6.0(VB.NET)/Console(n-vb2)</td></tr>
 
                     <tr>
-                        <td width="30%" style="background-color: #dedede;">2022年/11月</td>
+                        <td width="30%" class="year">2022年/11月</td>
                         <td width="70%">ランダムカラーソフトウェアとしてGUI版Sorairo Colorsの開発を開始。</td>
                     </tr>
                     <tr><td width="100%" colspan="2">(n-w-cs版):.NET6.0(C#)/Windows Forms(n-w-cs10)</td></tr>
@@ -105,14 +124,14 @@
                     <tr><td width="100%" colspan="2">名前をN-SCF(NEO-Sorairo Colors + Flomia)とする。</td></tr>
 
                     <tr>
-                        <td width="30%" style="background-color: #dedede;">2023年/2月</td>
+                        <td width="30%" class="year">2023年/2月</td>
                         <td width="70%">Web版の開発を開始。</td>
                     </tr>
                     <tr><td width="100%" colspan="2">(n-b-cs版):.NET6.0(C#)/Blazor WebAssembly(n-b-cs2)</td></tr>
                     <tr><td width="100%" colspan="2">(やる気がないため現在でもほとんど完成していない。)</td></tr>
 
                     <tr>
-                        <td width="30%" style="background-color: #dedede;">2023年/3月</td>
+                        <td width="30%" class="year">2023年/3月</td>
                         <td width="70%">Solaris向けに開発を開始。</td>
                     </tr>
                     <tr><td width="100%" colspan="2">(j版):JDK17?/Java Form?(j1)</td></tr>
@@ -120,7 +139,7 @@
                     <tr><td width="100%" colspan="2">(完成はしているが、実際に動くかはテストを行っていないので不明。)</td></tr>
 
                     <tr>
-                        <td width="30%" style="background-color: #dedede;">2023年/3月</td>
+                        <td width="30%" class="year">2023年/3月</td>
                         <td width="70%">モダンUIを実装したSky Colorsを開発開始。</td>
                     </tr>
                     <tr><td width="100%" colspan="2">(wpf-cs版):.NET Framework4.8?(C#)/WPF(wpf-cs1)</td></tr>
