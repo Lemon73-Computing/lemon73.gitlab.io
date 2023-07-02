@@ -96,6 +96,11 @@ main
     padding-right: 5%;
 }
 
+details
+{
+    background-color: rgba(12, 12, 12, .1);
+}
+
 /*Text*/
 /*文字系*/
 a
