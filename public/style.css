@@ -87,9 +87,13 @@ header b p
 
 main
 {
-    width: 90%;
-    padding: 0.2em;
+    width: 80%;
     margin-bottom: 1.4em;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0.2em;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 /*Text*/
