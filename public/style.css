@@ -23,6 +23,10 @@
     {
         background-color: #f4f4f4;
     }
+    details
+    {
+        background-color: rgba(12, 12, 12, .1);
+    }
 
     /*Text*/
     /*文字系*/
@@ -56,6 +60,10 @@
     main
     {
         background-color: #453b3b;
+    }
+    details
+    {
+        background-color: rgba(255, 255, 255, .1);
     }
 
     /*Text*/
@@ -94,11 +102,6 @@ main
     padding: 0.2em;
     padding-left: 5%;
     padding-right: 5%;
-}
-
-details
-{
-    background-color: rgba(12, 12, 12, .1);
 }
 
 /*Text*/
