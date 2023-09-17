@@ -104,6 +104,12 @@ main
     padding-right: 5%;
 }
 
+details
+{
+    border-radius: 1.0em;
+    padding: 0 0.6em;
+}
+
 /*Text*/
 /*文字系*/
 a
