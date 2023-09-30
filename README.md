@@ -8,8 +8,8 @@ LECメインサイト
 ## 概要
 URL:[lemon73.gitlab.io](https://lemon73.gitlab.io)
 
-こちらは、GitHubで開発が始まったLECメインサイトを新しくGitLabに移行したものです。<br />
-現時点では開発中の不安定版ですが、旧サイトを超すことを目標に開発を続けています。
+こちらは、LECの新サイトです。<br />
+旧サイトからの移行先として作成されました。
 
 ## バッジ
 On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
