@@ -2,13 +2,7 @@
 
 
 
-## i18n
-
-- English(here)
-- [日本語](README_ja.md)
-- [Deutsch](README_de.md)
-
-## Getting started
+## はじめに
 
 URL:[lemon73.gitlab.io](https://lemon73.gitlab.io)
 
@@ -38,7 +32,7 @@ git push -uf origin main
 - [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
 - [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
 
-## Test and Deploy
+## テスト・デプロイ
 
 Use the built-in continuous integration in GitLab.
 
@@ -57,44 +51,48 @@ When you're ready to make this README your own, just edit this file and use the 
 ## Suggestions for a good README
 Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
 
-## Name
-LEC-MainSite
+## 名称
+LECメインサイト
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+## 概要
+こちらは、GitHubで開発が始まったLECメインサイトを新しくGitLabに移行したものです。<br />
+現時点では開発中の不安定版ですが、旧サイトを超すことを目標に開発を続けています。
 
-## Badges
+## バッジ
 On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
 
-## Visuals
+## 案内
 Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
 
-## Installation
+## インストール
 Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
 
-## Usage
+## 使用方法
 Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
 
-## Support
-RealTime Information(Japanese):[Discord RealTime](https://discord.com/channels/972718425937952798/1080900222152097913 "Official LEC-MainSite support")
+## サポート
+リアルタイムの運営状況報告:旧サイト世代の[Discord連絡板](https://discord.com/channels/972718425937952798/1080900222152097913 "LEC公式サイトサポート")
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+## ロードマップ
+未定です。
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+## 貢献
+LECのメインサイトの開発は、私(Lemon73)の単独で行われています。
+また、現時点では他の方からのマージリクエストは受けない予定です。
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+ドキュメントなどに関しても特に提供は受けない予定となっています。
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+ただし、国際化(翻訳)に関しては別で、それらに関してはマージリクエストまたは翻訳データの受領を行います。
 
-## Authors and acknowledgment
-Author: Lemon73<br />
-Acknowledgment: Please help me translate document.Thank you.
+## 著者と謝辞
+著者:Lemon73<br />
+謝辞:開発中のために不安定で申し訳ございません。また、翻訳もほとんど進んでいないため、ご協力お願いします。
 
-## License
-- Programs License:[GNU Public License v3.0(GPL v3)](LICENSE "GPL v3")
-- Text License:[Creative Commons BY-SA 4.0(CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed "CC BY-SA 4.0")
+## ライセンス
+こちらのプロジェクトでは、
+プログラムや構成などに関してのライセンスとして、[GNU Public License v3.0(GPL v3)](LICENSE "GPL v3")を、
+文章に関してのライセンスは、[Creative Commons BY-SA 4.0(CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.ja "CC BY-SA 4.0")を採用しています。
 
-## Project status
-Now, This project is moving.
+## プロジェクトの状況
+こちらは、リアルタイムで**開発中**のプロジェクトとなっています。
+現在主に行っている作業は、[旧サイト](https://github.com/Lemon73-Computing/LEC-MainSite "LEC-MainSite")から引継ぎ作業です。
