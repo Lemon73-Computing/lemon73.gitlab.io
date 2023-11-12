@@ -2,123 +2,98 @@
 
 /* Light Mode */
 /* ライトモード */
-@media (prefers-color-scheme: light)
-{
-    html
-    {
-        color: #281414;
-        background-color: #ebebeb;
-        /*スマホでリンクをタップした時に一瞬だけ表示される背景色*/
-        -webkit-tap-highlight-color: rgba(24, 12, 12, .60);
-    }
-    header b p
-    {
-        background-color: #f4f4f4;
-    }
-    header b p a
-    {
-        color: #4e403e;
-    }
-    main
-    {
-        background-color: #f4f4f4;
-    }
-    details
-    {
-        background-color: rgba(12, 12, 12, .1);
-    }
+@media (prefers-color-scheme: light){
+	html{
+		color: #281414;
+		background-color: #ebebeb;
+		-webkit-tap-highlight-color: rgba(24, 12, 12, .60);
+	}
+	header b p{
+		background-color: #f4f4f4;
+	}
+	header b p a{
+		color: #4e403e;
+	}
+	main{
+		background-color: #f4f4f4;
+	}
+	details{
+		background-color: rgba(12, 12, 12, .1);
+	}
 
-    /*Text*/
-    /*文字系*/
-    a{color: #c50052;}
-    /*p a, a p{color: #281414;}*/
-    ::selection
-    {
-        color: rgba(255, 255, 255, .45);
-        background: rgba(24, 12, 12, .60);
-    }
+	/*Text*/
+	/*文字系*/
+	a{color: #c50052;}
+	::selection{
+		color: rgba(255, 255, 255, .45);
+		background: rgba(24, 12, 12, .60);
+	}
 }
 /* Dark Mode */
 /* ダークモード */
-@media (prefers-color-scheme: dark)
-{
-    html
-    {
-        color: #e8e8e8;
-        background-color: #2f2f2f;
-        /*スマホでリンクをタップした時に一瞬だけ表示される背景色*/
-        -webkit-tap-highlight-color: rgba(255, 255, 255, .60);
-    }
-    header b p
-    {
-        background-color: #453b3b;
-    }
-    header b p a
-    {
-        color: #e8e8e8;
-    }
-    main
-    {
-        background-color: #453b3b;
-    }
-    details
-    {
-        background-color: rgba(255, 255, 255, .1);
-    }
+@media (prefers-color-scheme: dark){
+	html{
+		color: #e8e8e8;
+		background-color: #2f2f2f;
+		-webkit-tap-highlight-color: rgba(255, 255, 255, .60);
+	}
+	header b p{
+		background-color: #453b3b;
+	}
+	header b p a{
+		color: #e8e8e8;
+	}
+	main{
+		background-color: #453b3b;
+	}
+	details{
+		background-color: rgba(255, 255, 255, .1);
+	}
 
-    /*Text*/
-    /*文字系*/
-    a{color: #edd5dd;}
-    /*p a, a p{color: #e8e8e8;}*/
-    ::selection
-    {
-        color: rgba(24, 12, 12, .45);
-        background: rgba(255, 255, 255, .60);
-    }
+	/*Text*/
+	/*文字系*/
+	a{color: #edd5dd;}
+	::selection{
+		color: rgba(24, 12, 12, .45);
+		background: rgba(255, 255, 255, .60);
+	}
 }
 
-html
-{
-    font-family: "游明朝", "ヒラギノ明朝 ProN", "Meiryo", serif, sans-serif;
-    width: 100%;
+html{
+	font-family: "游明朝", "ヒラギノ明朝 ProN", "Meiryo", serif, sans-serif;
+	width: 100%;
 }
 
 body{margin: 0;}
 
-header b p
-{
-    font-size: 1.6em;
-    margin: 0;
-    margin-bottom: 1.6em;
-    padding: 0.4em;
+header b p{
+	font-size: 1.6em;
+	margin: 0;
+	margin-bottom: 1.6em;
+	padding: 0.4em;
 }
 
-main
-{
-    width: 80%;
-    margin-bottom: 1.4em;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 0.2em;
-    padding-left: 5%;
-    padding-right: 5%;
+main{
+	width: 80%;
+	margin-bottom: 1.4em;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 0.2em;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
-details
-{
-    border-radius: 1.0em;
-    padding: 0 0.6em;
+details{
+	border-radius: 1.0em;
+	padding: 0 0.6em;
 }
 
 /*Text*/
 /*文字系*/
-a
-{
-    /*Without Underber*/
-    /*下線無効化*/
-    text-decoration: none;
+a{
+	text-decoration: none;
 }
-a:focus, a:hover
-{
-    opacity: 0.8;
+a:focus,
+a:hover{
+	opacity: 0.8;
 }
