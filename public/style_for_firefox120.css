@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+:root{
+	color-scheme: light dark;
+	-webkit-tap-highlight-color: light-dark(rgba(24, 12, 12, .6), rgba(255, 255, 255, .6));
+}
+
+html{
+	color: light-dark(#281414, #e8e8e8);
+	background-color: light-dark(#ebebeb, #2f2f2f);
+	font-family: "游明朝", "ヒラギノ明朝 ProN", "Meiryo", serif, sans-serif;
+	width: 100%;
+}
+
+body{margin: 0;}
+
+header b p{
+	background-color: light-dark(#f4f4f4, #453b3b);
+	font-size: 1.6em;
+	margin: 0;
+	margin-bottom: 1.6em;
+	padding: 0.4em;
+
+	a{
+		color: light-dark(#4e403e, #e8e8e8);
+	}
+}
+
+main{
+	background-color: light-dark(#f4f4f4, #453b3b);
+	width: 80%;
+	margin-bottom: 1.4em;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 0.2em;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+details{
+	background-color: light-dark((12, 12, 12, .1), rgba(255, 255, 255, .1));
+	border-radius: 1.0em;
+	padding: 0 0.6em;
+}
+
+/*Text*/
+/*文字系*/
+a{
+	color: light-dark(#c50052, #edd5dd);
+	text-decoration: none;
+
+	:focus, :hover{
+		opacity: 0.8;
+	}
+}
+
+::selection{
+	color: light-dark(rgba(255, 255, 255, .45), (24, 12, 12, .45));
+	background: light-dark(rgba(24, 12, 12, .60), (255, 255, 255, .60));
+}
